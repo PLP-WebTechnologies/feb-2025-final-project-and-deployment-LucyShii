@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Portfolio</h1>
+            </div>
+            <nav>
+                <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                    <span class="sr-only">Menu</span>
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="primary-navigation" class="primary-navigation">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h2>Welcome to My Portfolio</h2>
+                    <p>Web Developer & Designer</p>
+                    <button class="cta-button" id="learn-more">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="container">
+                <h2>Featured Projects</h2>
+                <div class="project-slider">
+                    <div class="slides">
+                        <div class="slide active">
+                            <img src="https://via.placeholder.com/400x300" alt="Project 1">
+                            <h3>Project 1</h3>
+                            <p>A responsive website for a local business.</p>
+                        </div>
+                        <div class="slide">
+                            <img src="https://via.placeholder.com/400x300" alt="Project 2">
+                            <h3>Project 2</h3>
+                            <p>An e-commerce platform with payment integration.</p>
+                        </div>
+                        <div class="slide">
+                            <img src="https://via.placeholder.com/400x300" alt="Project 3">
+                            <h3>Project 3</h3>
+                            <p>A mobile-first web application.</p>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+                        <div class="slide-indicators">
+                            <span class="indicator active" data-slide="0"></span>
+                            <span class="indicator" data-slide="1"></span>
+                            <span class="indicator" data-slide="2"></span>
+                        </div>
+                        <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="container">
+                <h2>Skills & Expertise</h2>
+                <div class="skills-container">
+                    <div class="skill">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>HTML5, CSS3, JavaScript</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Design</h3>
+                        <p>UI/UX, Responsive Design</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile</h3>
+                        <p>Mobile-First Approach</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Portfolio</h3>
+                    <p>Creating beautiful web experiences</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>About My Work</h2>
+            <p>I'm passionate about creating responsive, user-friendly websites that deliver exceptional user experiences. With expertise in HTML5, CSS3, and JavaScript, I build modern web applications that meet client needs.</p>
+            <p>Feel free to explore my portfolio and contact me for collaboration opportunities!</p>
+        </div>
+    </div>
+</body>
+</html>
